@@ -1,0 +1,156 @@
+.intro-list {
+    margin-bottom: 20px;
+}
+
+.intro-list > div {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+.intro-list > div > span {
+    margin-left: 5px;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .course-page {
+        padding-top: 50px;
+    }
+}
+
+.course-overview {
+    margin-bottom: 20px;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.progress-overview {
+    width: 600px;
+}
+
+.progress-overview > div {
+    margin-top: 20px;
+}
+
+.progress-overview-title {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.progress-overview-title > strong {
+    margin-right: 5px;
+}
+
+.progress-overview-title > strong:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.progress-overview-title > svg {
+    color: var(--green);
+}
+
+.module-overview {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.module-overview > button {
+    padding: 5px;
+    display: flex;
+    font-size: 12px;
+    width: 170px;
+    margin: 10px;
+    flex-direction: column;
+    border: none;
+}
+
+.module-overview > button:hover {
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.section-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-button {
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    height: 40px;
+    min-width: 160px;
+    font-weight: bold;
+}
+
+.nav-button:hover {
+    color: var(--primary);
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-button:active {
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.progress-section .tooltiptext {
+    visibility: hidden;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+
+    /* Position the tooltip */
+    min-width: 150px;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    font-weight: normal;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.module-summary {
+    width: 600px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+    .progress-overview {
+        width: 90vw;
+    }
+    .module-summary {
+        width: 90vw;
+    }
+}

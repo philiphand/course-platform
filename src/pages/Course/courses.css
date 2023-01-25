@@ -1,0 +1,72 @@
+.courses-container {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-showcase {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.course-image {
+    background-size: cover;
+    height: 120px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.course-title {
+    font-weight: bold;
+}
+
+.course-info-div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.course-info {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.course-info > svg {
+    margin-right: 5px;
+}
+
+.course-button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.course-button-div > a {
+    width: 100%;
+}
+
+.course-button-div > a > button {
+    width: 100%;
+}
+
+.pink {
+    background-color: rgb(234, 109, 196);
+    border-color: rgb(234, 109, 196);
+}
+
+.pink:hover {
+    color: rgb(234, 109, 196);
+}
+
+.pink:active {
+    background-color: rgb(234, 109, 196);
+    color: white;
+}
+
+.rightmargin {
+    margin-right: 30px;
+}

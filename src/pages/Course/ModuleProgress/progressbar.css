@@ -1,0 +1,61 @@
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.progress-section {
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.progress-section:hover {
+    cursor: pointer;
+}
+
+.filled-progress {
+    color: white;
+    background-color: var(--primary);
+}
+
+.current-section {
+    background-color: black;
+    color: white;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.progress-section .tooltiptext {
+    visibility: hidden;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+
+    /* Position the tooltip */
+    min-width: 150px;
+    position: absolute;
+    bottom: 110%;
+    font-weight: normal;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 700px) {
+    .tooltiptext {
+        display: none;
+    }
+}
