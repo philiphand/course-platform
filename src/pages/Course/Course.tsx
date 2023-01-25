@@ -2,7 +2,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import "./course.css";
 import { IntroProgramContext, Section } from '../../Provider';
-import { Book, Calendar, Clock, Globe, LightBulb, Warning, WhiteCheckMark, Wrench } from '../../components/icons/icons';
+import { Book, Calendar, Certificate, Clock, Globe, LightBulb, Warning, WhiteCheckMark, Wrench } from '../../components/icons/icons';
 import { Module } from './Module/Module';
 import { Sidebar } from './Sidebar/Sidebar';
 import { SectionOverview } from './SectionOverview/SectionOverview';
@@ -95,9 +95,18 @@ const Course: React.FC = () => {
                   <div><Book/><span>Content based on <a href="https://forum.effectivealtruism.org/handbook" target="_blank" rel="noreferrer">The EA Handbook</a></span></div>
                   <div><Calendar/><span>Six weekly modules</span></div>
                   <div><Clock/><span>Estimated course workload of 6-8 hours</span></div>
-                  {/* <div><Certificate/><span>Digital certificate upon completion</span></div> */}
-                  <div><Wrench /><span>WIP: more content and features coming soon</span></div>
+                  <div><Certificate/><span>Digital certificate upon completion</span></div>
                 </div>
+                <button className="nav-button" onClick={() => {
+                    if (firstIncompleteSection.section > 1) {
+                      context.goToSection(firstIncompleteSection);
+                    } else {
+                      // Show module preview before going to first section
+                      context.goToSection({module: courseStarted ? firstIncompleteSection.module : 1, section: 0});
+                    }
+                  }}>
+                    {courseStarted ? "Continue learning" : "Start learning"}
+                  </button>
               </div>
             }
 
