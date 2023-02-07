@@ -4,7 +4,7 @@ import './navbar.css';
 function Navbar() {
   return (
     <div className="navbar">
-      <h1 className="orgName">Course platform</h1>
+      <h1 className="orgName">Courses</h1>
     </div>
   );
 }

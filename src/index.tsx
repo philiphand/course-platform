@@ -17,6 +17,7 @@ root.render(
         <Navbar />
         <Routes>
           <Route path="/" element={<Course />} />
+          <Route path="/handbook" element={<Course />} /> {/* For backwards compatibility with old course url */}
           <Route path="course/:id" element={<Course />} />
           <Route path="course/:id/:cohort" element={<Course />} />
           <Route path="introprogram" element={<Navigate to="/course/handbook" />} />
