@@ -16,7 +16,7 @@ const modules: Module[] = [
 ];
 
 const course: Course = {
-  name: "handbook",
+  name: "ea_intro",
   title: "Effective Altruism",
   modules,
   released: true,

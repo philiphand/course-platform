@@ -6,6 +6,9 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Course from './pages/Course/Course';
 import Navbar from './components/Navbar/Navbar';
 import Provider from './Provider';
+import { inject } from '@vercel/analytics';
+
+inject();
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -20,7 +23,7 @@ root.render(
           <Route path="/handbook" element={<Course />} /> {/* For backwards compatibility with old course url */}
           <Route path="course/:id" element={<Course />} />
           <Route path="course/:id/:cohort" element={<Course />} />
-          <Route path="introprogram" element={<Navigate to="/course/handbook" />} />
+          <Route path="introprogram" element={<Navigate to="/course/ea-intro" />} />
         </Routes>
       </BrowserRouter>
     </Provider>

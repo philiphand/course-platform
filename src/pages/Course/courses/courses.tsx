@@ -1,9 +1,11 @@
 import handbook from "./handbook/course"
+import ea_intro from "./ea_intro/course"
 import { Course } from "./types";
 import { IntroProgramState } from "../../../Provider";
 
 let courses: Course[] = [
     handbook,
+    ea_intro
 ]
 
 // Update state based on localStorage

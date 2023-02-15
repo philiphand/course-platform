@@ -2,17 +2,18 @@
 import React, { useContext, useEffect, useState } from 'react';
 import "./course.css";
 import { IntroProgramContext, Section } from '../../Provider';
-import { Book, Calendar, Certificate, Clock, Globe, LightBulb, Warning, WhiteCheckMark, Wrench } from '../../components/icons/icons';
+import { Book, Calendar, Certificate, Clock, Globe, LightBulb, Warning, WhiteCheckMark } from '../../components/icons/icons';
 import { Module } from './Module/Module';
 import { Sidebar } from './Sidebar/Sidebar';
 import { SectionOverview } from './SectionOverview/SectionOverview';
 import { Progressbar } from './ModuleProgress/Progressbar';
 import { ProgressInfo } from './ProgressInfo/ProgressInfo';
+import { useParams } from 'react-router-dom';
 
 const Course: React.FC = () => {
   const context = useContext(IntroProgramContext);
-  //let { id } = useParams();
-  const id = "handbook" // Temporarily override url parameter
+  let { id } = useParams();
+  if (!id) id = "handbook"
   const [initiatedModules, setInitiatedModules] = useState(false);
   const [courseStarted, setCourseStarted] = useState(false);
   const [changedCourse, setChangedCourse] = useState(false);

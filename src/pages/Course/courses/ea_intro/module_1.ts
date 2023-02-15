@@ -19,7 +19,7 @@ let sections: Section[] = [
     minutes: 5
   },
   {
-    title: "Can we really improve the world?",
+    title: "The world is awful. The world is much better. The world can be much better.",
     person: "Max Roser",
     organization: "Our World in Data",
     type: "text",
