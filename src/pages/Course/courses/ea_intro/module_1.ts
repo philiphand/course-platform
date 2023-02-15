@@ -4,10 +4,26 @@ let sections: Section[] = [
   {
     title: "What is effective altruism (EA)?",
     organization: "Centre for Effective Altruism",
+    introduction: [
+      "There is no shortage of global issues, and it can be difficult to know where to start when it comes to making a positive impact. Fortunately, effective altruism offers us a set of principles to guide our efforts – a way to make the most of our time, money, and talents to make the most meaningful difference we can.", 
+      "In this article, we'll explore what effective altruism is and how it can help us make the world a better place. This article provides an overview of the philosophy of effective altruism, as well as current thinking in the EA community. We’ll look at why it’s important to focus our efforts on areas of greatest need, and how to identify and evaluate potential causes to support.",
+    ],
     type: "text",
     linkTitle: "What is effective altruism?",
     url: "https://www.effectivealtruism.org/articles/introduction-to-effective-altruism",
     minutes: 15
+  },
+  {
+    title: "Scout mindset",
+    introduction: 
+      [
+        'Perspective is everything, especially when it comes to examining your beliefs. Are you a soldier, prone to defending your viewpoint at all costs — or a scout, spurred by curiosity? Julia Galef examines the motivations behind these two mindsets and how they shape the way we interpret information, interweaved with a compelling history lesson from 19th-century France. When your steadfast opinions are tested, Galef asks: "What do you most yearn for? Do you yearn to defend your own beliefs or do you yearn to see the world as clearly as you possibly can?"',
+      ],
+    person: "Julia Galef",
+    type: "video",
+    linkTitle: "Why you think you are right – even if you’re wrong",
+    url: "https://www.youtube.com/embed/w4RLfVxTGH4",
+    minutes: 11
   },
   {
     title: "Four ideas you agree with EA about",
@@ -19,7 +35,7 @@ let sections: Section[] = [
     minutes: 5
   },
   {
-    title: "The world is awful. The world is much better. The world can be much better.",
+    title: "The world can be much better",
     person: "Max Roser",
     organization: "Our World in Data",
     type: "text",
@@ -40,18 +56,6 @@ let sections: Section[] = [
     linkTitle: "On caring",
     url: "http://mindingourway.com/on-caring/",
     minutes: 10
-  },
-  {
-    title: "Scout mindset",
-    introduction: 
-      [
-        'Perspective is everything, especially when it comes to examining your beliefs. Are you a soldier, prone to defending your viewpoint at all costs — or a scout, spurred by curiosity? Julia Galef examines the motivations behind these two mindsets and how they shape the way we interpret information, interweaved with a compelling history lesson from 19th-century France. When your steadfast opinions are tested, Galef asks: "What do you most yearn for? Do you yearn to defend your own beliefs or do you yearn to see the world as clearly as you possibly can?"',
-      ],
-    person: "Julia Galef",
-    type: "video",
-    linkTitle: "Why you think you are right – even if you’re wrong",
-    url: "https://www.youtube.com/embed/w4RLfVxTGH4",
-    minutes: 11
   },
   {
     title: "Cognitive biases",

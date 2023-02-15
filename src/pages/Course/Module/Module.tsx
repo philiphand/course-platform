@@ -105,7 +105,7 @@ export const Module: React.FC<Props> = ({moduleNumber}) => {
                 }
                 {currSec !== 0 && currMod.sections[currSec-1].type === "reflection" &&
                     <div>
-                        Please take a couple of minutes to reflect on the following questions before attending our next discussion meeting. It can also be helpful to write down your thoughts to remember them better.
+                        Here are some discussion questions to reflect on before our next discussion meeting. It can also be helpful to write down your thoughts to remember them.
                         <br />
                         <br />
                         <strong>Questions</strong>

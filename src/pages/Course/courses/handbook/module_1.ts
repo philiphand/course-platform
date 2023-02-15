@@ -4,6 +4,10 @@ let sections: Section[] = [
   {
     title: "What is effective altruism (EA)?",
     organization: "Centre for Effective Altruism",
+    introduction: [
+      "The world we live in today is full of problems, from poverty to climate change, and it can be difficult to know where to start when it comes to making a positive impact. Fortunately, effective altruism offers us a powerful tool to guide our efforts – a way to make the most of our time, money, and talents to make the most meaningful difference we can.", 
+      "In this article, we'll explore what effective altruism is and how it can help us make the world a better place. This article provides an overview of the philosophy of effective altruism, as well as current thinking in the EA community. We’ll look at why it’s important to focus our efforts on areas of greatest need, and how to identify and evaluate potential causes to support. Finally, we’ll discuss practical strategies for putting our altruistic intentions into action.",
+    ],
     type: "text",
     linkTitle: "What is effective altruism?",
     url: "https://www.effectivealtruism.org/articles/introduction-to-effective-altruism",
