@@ -11,13 +11,14 @@ interface Props {
 export const Progressbar: React.FC<Props> = ({ moduleNumber }) => {
     const context = useContext(IntroProgramContext);
     const currSecNumber = context.state.currentSection.section;
+    const currentModule = context.state.currentSection.module;
     const modules = context.state.modules;
 
     return (
         <div className="progress-bar">
             {modules[moduleNumber-1].sections.map((section) => {
                 const sectionNumber = modules[moduleNumber-1].sections.indexOf(section)+1;
-                const classes = `tooltip progress-section ${section.completed && "filled-progress"} ${currSecNumber === sectionNumber && "current-section"}`
+                const classes = `tooltip progress-section ${section.completed && "filled-progress"} ${currSecNumber === sectionNumber && currentModule > 0 && "current-section"}`
                 return (
                     <div
                         className={classes}
