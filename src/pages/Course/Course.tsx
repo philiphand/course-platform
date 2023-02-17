@@ -102,8 +102,7 @@ const Course: React.FC = () => {
                     if (firstIncompleteSection.section > 1) {
                       context.goToSection(firstIncompleteSection);
                     } else {
-                      // Show module preview before going to first section
-                      context.goToSection({module: courseStarted ? firstIncompleteSection.module : 1, section: 0});
+                      context.goToSection({module: courseStarted ? firstIncompleteSection.module : 1, section: 1});
                     }
                   }}>
                     {courseStarted ? "Continue learning" : "Start learning"}
@@ -124,8 +123,7 @@ const Course: React.FC = () => {
                     if (firstIncompleteSection.section > 1) {
                       context.goToSection(firstIncompleteSection);
                     } else {
-                      // Show module preview before going to first section
-                      context.goToSection({module: courseStarted ? firstIncompleteSection.module : 0, section: 0});
+                      context.goToSection({module: courseStarted ? firstIncompleteSection.module : 0, section: 1});
                     }
                   }}>
                     {courseStarted ? "Continue learning" : "Start learning"}
@@ -181,7 +179,7 @@ const Course: React.FC = () => {
                       context.goToSection(firstIncompleteSection);
                     } else {
                       // Show module preview before going to first section
-                      context.goToSection({module: courseStarted ? firstIncompleteSection.module : 1, section: 0});
+                      context.goToSection({module: courseStarted ? firstIncompleteSection.module : 1, section: 1});
                     }
                   }}>
                     {courseStarted ? "Continue learning" : "Start learning"}

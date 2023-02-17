@@ -47,9 +47,11 @@ function Provider(props: { children: string | number | boolean | React.ReactElem
     setState({...state, currentSection: {module: state.currentSection.module, section: state.currentSection.section - 1}})
   }
   const goToModule = (targetModule: number) => {
-    setState({...state, currentSection: {module: targetModule, section: 0}})
+    window.scrollTo(0,0);
+    setState({...state, currentSection: {module: targetModule, section: 1}})
   }
   const goToSection = (targetSection: Section) => {
+    window.scrollTo(0,0);
     setState({...state, currentSection: targetSection})
   }
   const setModules = (modules: Module[]) => {
