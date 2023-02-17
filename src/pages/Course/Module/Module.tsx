@@ -66,10 +66,6 @@ export const Module: React.FC<Props> = ({moduleNumber}) => {
                         {currMod.sections[currSec-1].introduction?.map(paragraph => {
                             return <p>{paragraph}</p>
                         })}
-                        <br />
-                        <strong><i>{currMod.sections[currSec-1].linkTitle} - {currMod.sections[currSec-1].person ? currMod.sections[currSec-1].person : currMod.sections[currSec-1].organization}</i></strong>
-                        <br />
-                        <br />
                         <iframe
                             allow="fullscreen"
                             className="youtube-video"

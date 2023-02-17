@@ -17,7 +17,7 @@ const modules: Module[] = [
 
 const course: Course = {
   name: "handbook",
-  title: "Effective Altruism",
+  title: "Compact EA Handbook (old version)",
   modules,
   released: true,
   recommended: true,

@@ -8,6 +8,7 @@ import Course from './pages/Course/Course';
 import Navbar from './components/Navbar/Navbar';
 import Provider from './Provider';
 import { inject } from '@vercel/analytics';
+import Courses from './pages/Course/Courses';
 
 inject();
 
@@ -20,10 +21,11 @@ root.render(
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Course />} />
+          <Route path="/" element={<Courses />} />
           <Route path="/handbook" element={<Course />} /> {/* For backwards compatibility with old course url */}
           <Route path="course/:id" element={<Course />} />
           <Route path="course/:id/:cohort" element={<Course />} />
+          <Route path="/courses" element={<Courses />} />
           <Route path="introprogram" element={<Navigate to="/course/ea-intro" />} />
         </Routes>
       </BrowserRouter>

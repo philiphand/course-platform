@@ -96,7 +96,7 @@ const Course: React.FC = () => {
                   <div><Book/><span>Content based on <a href="https://forum.effectivealtruism.org/handbook" target="_blank" rel="noreferrer">The EA Handbook</a></span></div>
                   <div><Calendar/><span>Six weekly modules</span></div>
                   <div><Clock/><span>Estimated course workload of 6-8 hours</span></div>
-                  <div><Certificate/><span>Digital certificate upon completion</span></div>
+                  <div><Certificate/><span>Digital certificate upon completion (at EA UiB)</span></div>
                 </div>
                 <button className="nav-button" onClick={() => {
                     if (firstIncompleteSection.section > 1) {

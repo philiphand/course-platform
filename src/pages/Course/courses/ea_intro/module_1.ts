@@ -2,18 +2,6 @@ import { Module, Section } from "../types";
 
 let sections: Section[] = [
   {
-    title: "What is effective altruism (EA)?",
-    organization: "Centre for Effective Altruism",
-    introduction: [
-      "There is no shortage of global issues, and it can be difficult to know where to start when it comes to making a positive impact. Fortunately, effective altruism offers us a set of principles to guide our efforts – a way to make the most of our time, money, and talents to make the most meaningful difference we can.", 
-      "In this article, we'll explore what effective altruism is and how it can help us make the world a better place. This article provides an overview of the philosophy of effective altruism, as well as current thinking in the EA community. We’ll look at why it’s important to focus our efforts on areas of greatest need, and how to identify and evaluate potential causes to support.",
-    ],
-    type: "text",
-    linkTitle: "What is effective altruism?",
-    url: "https://www.effectivealtruism.org/articles/introduction-to-effective-altruism",
-    minutes: 15
-  },
-  {
     title: "Scout mindset",
     introduction: 
       [
@@ -24,24 +12,6 @@ let sections: Section[] = [
     linkTitle: "Why you think you are right – even if you’re wrong",
     url: "https://www.youtube.com/embed/w4RLfVxTGH4",
     minutes: 11
-  },
-  {
-    title: "Four ideas you agree with EA about",
-    person: "Sam Deere",
-    organization: "Giving What We Can",
-    type: "text",
-    linkTitle: "Four Ideas You Already Agree With (That Mean You're Probably on Board with Effective Altruism)",
-    url: "https://www.givingwhatwecan.org/post/2016/03/four-things-you-already-agree-with-effective-altruism/",
-    minutes: 5
-  },
-  {
-    title: "The world can be much better",
-    person: "Max Roser",
-    organization: "Our World in Data",
-    type: "text",
-    linkTitle: "The world is awful. The world is much better. The world can be much better.",
-    url: "https://ourworldindata.org/much-better-awful-can-be-better",
-    minutes: 5
   },
   {
     title: "Scope insensitivity",
@@ -63,7 +33,6 @@ let sections: Section[] = [
     introduction: [
       "Cognitive biases are tendencies to think in certain ways that can lead to inaccurate judgments. There are many different cognitive biases, and they can affect judgments in different ways. It is important to be aware of the most common cognitive biases and how they can lead to inaccurate judgments, so that you can avoid making these mistakes in your own life.",
       "Some cognitive biases related to effective altruism are the sunk cost fallacy, the gambler’s fallacy, and the overconfidence bias. The sunk cost fallacy is the tendency to continue investing in something, even when it is no longer rational to do so, because of the investments that have already been made. The gambler’s fallacy is the belief that past events can influence the likelihood of future events. The overconfidence bias is the tendency to overestimate one’s abilities or chances of success.",
-      "All of these cognitive biases can lead to inaccurate judgments about how much money or time should be invested in a particular cause or project. The sunk cost fallacy can lead to people continuing to invest in a project even when it is no longer rational to do so, because of the investments that have already been made. The gambler’s fallacy can lead to people believing that past events can influence the likelihood of future events, which can lead to inaccurate judgments about the chances of success for a particular project. The overconfidence bias can lead to people overestimating their abilities or chances of success, which can lead to them investing more money or time into a project than is rational."
     ],
     type: "video",
     linkTitle: "12 Cognitive Biases Explained - How to Think Better and More Logically Removing Bias",
@@ -79,11 +48,33 @@ let sections: Section[] = [
     minutes: 6
   },
   {
+    title: "Beyond Point-and-Shoot Morality",
+    linkTitle: "Beyond Point-and-Shoot Morality",
+    person: "Joshua Greene",
+    url: "https://www.youtube.com/watch?v=sChdbsbTNxI",
+    type: "video",
+    minutes: 11
+  },
+  {
     title: "Triage and cause prioritization",
     person: "Holly Elmore",
     type: "text",
     linkTitle: "We are in triage every second of every day",
     url: "https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/",
+    minutes: 5
+  },
+  {
+    title: "Fermi estimates",
+    introduction: [
+      "Fermi estimates are about making rough estimates about quantities that are difficult to measure. For example, the exact number of people in a city or stars in the sky. In both of these cases it would be nearly impossible to come up with an exact number.",
+      "However, by using a few basic assumptions and some simple math, it is often possible to come up with a reasonable estimate of the quantity in question. Instead of simply guessing or following our intuition, it may be more rational to make a rough but inaccurate estimate.",
+      "Fermi estimates can help us estimate the cost-effectiveness different interventions to improve the world. They are therefore very useful in the context of cause prioritization and deciding where to allocate our resources. Next week we dive deeper into the field of cost-effectiveness analysis."
+    ],
+    person: "Nagesh Belludi",
+    organization: "Right Attitudes",
+    type: "text",
+    linkTitle: "The Fermi Rule: Better be Approximately Right than Precisely Wrong",
+    url: "https://www.rightattitudes.com/2017/08/28/the-fermi-rule-guesstimation/",
     minutes: 5
   },
   {
@@ -104,7 +95,7 @@ let sections: Section[] = [
 
 let module: Module = {
   number: 1,
-  title: "Effective altruism",
+  title: "Thinking rationally",
   goals: [
   ],
   introduction: [
@@ -114,7 +105,6 @@ let module: Module = {
     "During the first two weeks we aim to introduce the core principles of EA. We introduce these ideas in the context of global poverty because we think it’s an approachable and intuitive cause area, and makes the tools more obviously and immediately useful and practical."
   ],
   keyConcepts: [
-    "Effective altruism (EA): a philosophical and social movement that advocates using evidence and reason to figure out how to benefit others as much as possible, and taking action on that basis.",
     "Cause prioritization: because we have limited resources, we need to prioritize between different ways to improve the world.",
     "Scout mindset: we’ll be better able to help others if we’re working together to find the truth, rather than trying to defend our own ideas.",
     "Cognitive biases: a systematic error in thinking that occurs when people are processing and interpreting information in the world around them and affects the decisions and judgments that they make.",
