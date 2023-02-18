@@ -9,7 +9,7 @@ let sections: Section[] = [
     organization: "",
     linkTitle: "",
     type: "text",
-    minutes: 1
+    minutes: 60
   },
 ];
 

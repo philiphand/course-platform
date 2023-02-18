@@ -39,7 +39,6 @@ let sections: Section[] = [
       "In one study, respondents were asked how much they were willing to pay to prevent migrating birds from drowning in uncovered oil ponds by covering the oil ponds with protective nets. Subjects were told that either 2,000, or 20,000, or 200,000 migrating birds were affected annually, for which subjects reported they were willing to pay $80, $78 and $88 respectively, showing that people were willing to pay nearly the same amount to save either 2,000 or 200,000 birds. This is arguably not a rational decision."
     ],
     person: "Nate Soares",
-    organization: "Minding our way",
     type: "text",
     linkTitle: "On caring",
     url: "http://mindingourway.com/on-caring/",

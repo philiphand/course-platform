@@ -14,18 +14,12 @@ let sections: Section[] = [
     minutes: 11
   },
   {
-    title: "Scope insensitivity",
-    introduction: [
-      "Scope neglect or scope insensitivity is a cognitive bias that occurs when the valuation of a problem is not valued with a multiplicative relationship to its size. Daniel Kahneman, a Nobel Prize-winning economist, and Amos Tversky, his research partner, first identified scope neglect in the early 1970s.",
-      "For example, people are more likely to judge a problem that will affect 10 people as being more severe than a problem that will affect only one person. However, they are less likely to judge a problem that will affect 100 people as being more severe than a problem that will affect 10 people. Scope neglect can have a significant impact on decision-making. For example, it can lead people to underestimate the severity of a problem, which can lead to poor decisions.",
-      "In one study, respondents were asked how much they were willing to pay to prevent migrating birds from drowning in uncovered oil ponds by covering the oil ponds with protective nets. Subjects were told that either 2,000, or 20,000, or 200,000 migrating birds were affected annually, for which subjects reported they were willing to pay $80, $78 and $88 respectively, showing that people were willing to pay nearly the same amount to save either 2,000 or 200,000 birds. This is arguably not a rational decision."
-    ],
-    person: "Nate Soares",
-    organization: "Minding our way",
+    title: "Triage and cause prioritization",
+    person: "Holly Elmore",
     type: "text",
-    linkTitle: "On caring",
-    url: "http://mindingourway.com/on-caring/",
-    minutes: 10
+    linkTitle: "We are in triage every second of every day",
+    url: "https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/",
+    minutes: 5
   },
   {
     title: "Cognitive biases",
@@ -56,26 +50,29 @@ let sections: Section[] = [
     minutes: 11
   },
   {
-    title: "Triage and cause prioritization",
-    person: "Holly Elmore",
+    title: "Psychological obstacles to doing good",
+    introduction: [
+      "The human brain evolved in a very different world than the one we live in today. This causes some issues, as our primitive ways of thinking are often inadequate when it comes to making decisions related to helping others and tackling modern problems.",
+      "To combat these issues, it can help to make oneself aware of how our relatively primitive brain works so that we can catch ourselves in the act and make more rational decisions. The following article introduces some of these psychological obstacles that may prevent us from helping others as effectively as we would prefer."
+    ],
     type: "text",
-    linkTitle: "We are in triage every second of every day",
-    url: "https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/",
-    minutes: 5
+    linkTitle: "Psychological Obstacles to Doing Good (Better)",
+    url: "https://forum.effectivealtruism.org/posts/te2Hi4b2xZuNCXuFh/psychological-obstacles-to-doing-good-better",
+    person: "Michel Justen",
+    minutes: 16
   },
   {
-    title: "Fermi estimates",
+    title: "Scope insensitivity",
     introduction: [
-      "Fermi estimates are about making rough estimates about quantities that are difficult to measure. For example, the exact number of people in a city or stars in the sky. In both of these cases it would be nearly impossible to come up with an exact number.",
-      "However, by using a few basic assumptions and some simple math, it is often possible to come up with a reasonable estimate of the quantity in question. Instead of simply guessing or following our intuition, it may be more rational to make a rough but inaccurate estimate.",
-      "Fermi estimates can help us estimate the cost-effectiveness different interventions to improve the world. They are therefore very useful in the context of cause prioritization and deciding where to allocate our resources. Next week we dive deeper into the field of cost-effectiveness analysis."
+      "Scope neglect or scope insensitivity is a cognitive bias that occurs when the valuation of a problem is not valued with a multiplicative relationship to its size. Daniel Kahneman, a Nobel Prize-winning economist, and Amos Tversky, his research partner, first identified scope neglect in the early 1970s.",
+      "For example, people are more likely to judge a problem that will affect 10 people as being more severe than a problem that will affect only one person. However, they are less likely to judge a problem that will affect 100 people as being more severe than a problem that will affect 10 people. Scope neglect can have a significant impact on decision-making. For example, it can lead people to underestimate the severity of a problem, which can lead to poor decisions.",
+      "In one study, respondents were asked how much they were willing to pay to prevent migrating birds from drowning in uncovered oil ponds by covering the oil ponds with protective nets. Subjects were told that either 2,000, or 20,000, or 200,000 migrating birds were affected annually, for which subjects reported they were willing to pay $80, $78 and $88 respectively, showing that people were willing to pay nearly the same amount to save either 2,000 or 200,000 birds. This is arguably not a rational decision."
     ],
-    person: "Nagesh Belludi",
-    organization: "Right Attitudes",
+    person: "Nate Soares",
     type: "text",
-    linkTitle: "The Fermi Rule: Better be Approximately Right than Precisely Wrong",
-    url: "https://www.rightattitudes.com/2017/08/28/the-fermi-rule-guesstimation/",
-    minutes: 5
+    linkTitle: "On caring",
+    url: "http://mindingourway.com/on-caring/",
+    minutes: 10
   },
   {
     title: "Week 1 discussion questions",
