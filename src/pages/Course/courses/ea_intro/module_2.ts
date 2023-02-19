@@ -60,6 +60,8 @@ let sections: Section[] = [
       "The following article shows an attempt at estimating the cost of saving a life. This example estimate is from a cost-effectiveness analysis done by the charity evaluator GiveWell. A charity evaluator is an organization that evaluates charities and provides recommendations for donors. GiveWell separates itself from other charity evaluators by emphasizing evidence and certainty of positive outcomes when ranking charity interventions."
     ],
     type: "text",
+    linkTitle: "Why Is It So Expensive to Save Lives?",
+    organization: "GiveWell",
     url: "https://www.givewell.org/cost-to-save-a-life",
     minutes: 5
   },
