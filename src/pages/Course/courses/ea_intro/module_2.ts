@@ -32,7 +32,7 @@ let sections: Section[] = [
     type: "video",
     title: "Expected value",
     introduction: [
-      "This section introduces the concept of expected value. The expected value of en event equals the probability of the event multiplied by the value of the event if it occurs. Because the world is highly unpredictable, expected value calculations are commonly used in cost-effectiveness analysis for uncertain events where the probability is less than 100%."
+      "This section introduces the concept of expected value. The expected value of en event is defined as the probability of the event multiplied by the value of the event if it occurs. Because the world is highly unpredictable, expected value calculations are commonly used in cost-effectiveness analysis for uncertain events where the probability is less than 100%."
     ],
     organization: "Veritasium",
     linkTitle: "Would You Take This Bet?",
@@ -42,6 +42,9 @@ let sections: Section[] = [
   {
     title: "Hits-based giving",
     type: "text",
+    linkTitle: "Hits-based Giving",
+    organization: "Open Philanthropy",
+    person: "Holden Karnofsky",
     url: "https://www.openphilanthropy.org/research/hits-based-giving/",
     minutes: 27
   },

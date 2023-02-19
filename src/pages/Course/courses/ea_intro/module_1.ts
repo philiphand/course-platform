@@ -5,7 +5,8 @@ let sections: Section[] = [
     title: "Scout mindset",
     introduction: 
       [
-        'Perspective is everything, especially when it comes to examining your beliefs. Are you a soldier, prone to defending your viewpoint at all costs — or a scout, spurred by curiosity? Julia Galef examines the motivations behind these two mindsets and how they shape the way we interpret information, interweaved with a compelling history lesson from 19th-century France. When your steadfast opinions are tested, Galef asks: "What do you most yearn for? Do you yearn to defend your own beliefs or do you yearn to see the world as clearly as you possibly can?"',
+        'Perspective is everything, especially when it comes to examining your beliefs. Are you a soldier, prone to defending your viewpoint at all costs — or a scout, spurred by curiosity?',
+        'Julia Galef examines the motivations behind these two mindsets and how they shape the way we interpret information, interweaved with a compelling history lesson from 19th-century France. When your steadfast opinions are tested, Galef asks: "What do you most yearn for? Do you yearn to defend your own beliefs or do you yearn to see the world as clearly as you possibly can?"',
       ],
     person: "Julia Galef",
     type: "video",
@@ -14,19 +15,12 @@ let sections: Section[] = [
     minutes: 11
   },
   {
-    title: "Triage and cause prioritization",
-    person: "Holly Elmore",
-    type: "text",
-    linkTitle: "We are in triage every second of every day",
-    url: "https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/",
-    minutes: 5
-  },
-  {
     title: "Cognitive biases",
     organization: "Practical Psychology",
     introduction: [
       "Cognitive biases are tendencies to think in certain ways that can lead to inaccurate judgments. There are many different cognitive biases, and they can affect judgments in different ways. It is important to be aware of the most common cognitive biases and how they can lead to inaccurate judgments, so that you can avoid making these mistakes in your own life.",
-      "Some cognitive biases related to effective altruism are the sunk cost fallacy, the gambler’s fallacy, and the overconfidence bias. The sunk cost fallacy is the tendency to continue investing in something, even when it is no longer rational to do so, because of the investments that have already been made. The gambler’s fallacy is the belief that past events can influence the likelihood of future events. The overconfidence bias is the tendency to overestimate one’s abilities or chances of success.",
+      "A common example of a cognitive bias is confirmation bias. This is the tendency to search for, interpret, favor, and recall information in a way that confirms one's preexisting beliefs or hypotheses. This can lead to ignoring evidence that contradicts our beliefs. Another example of a cognitive bias is the sunk cost fallacy. This is the tendency to continue a behavior or endeavor because of the resources already invested in it, despite the knowledge that it may not be the best course of action.",
+      "The following video introduces twelve common cognitive biases. Awareness of these biases can help us think more rationally and make better decisions."
     ],
     type: "video",
     linkTitle: "12 Cognitive Biases Explained - How to Think Better and More Logically Removing Bias",
@@ -73,6 +67,18 @@ let sections: Section[] = [
     linkTitle: "On caring",
     url: "http://mindingourway.com/on-caring/",
     minutes: 10
+  },
+  {
+    title: "Triage and cause prioritization",
+    introduction: [
+      "We have a limited amount of resources to allocate to global issues, and unfortunately, we cannot solve all of them at once. Instead, we can prioritize between different problems and try to identify the ones where our resources will have the largest impact. This is commonly referred to as cause prioritization, which is one of the major focuses of the EA community.",
+      "It can be hard to accept that we cannot help everyone in need, as it means we also are required to decide who we will not help. Fortunately, cause prioritization gives us a way to make sure that our resources are being used in the most effective way possible, and therefore help the people in greatest need."
+    ],
+    person: "Holly Elmore",
+    type: "text",
+    linkTitle: "We are in triage every second of every day",
+    url: "https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/",
+    minutes: 5
   },
   {
     title: "Week 1 discussion questions",
