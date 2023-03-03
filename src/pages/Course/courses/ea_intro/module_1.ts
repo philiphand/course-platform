@@ -98,7 +98,7 @@ let sections: Section[] = [
 
 let module: Module = {
   number: 1,
-  title: "Thinking rationally",
+  title: "Rational thinking",
   goals: [
   ],
   introduction: [
