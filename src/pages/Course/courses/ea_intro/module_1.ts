@@ -28,6 +28,19 @@ let sections: Section[] = [
     minutes: 10
   },
   {
+    title: "Psychological obstacles to doing good",
+    introduction: [
+      "The human brain evolved in a very different world than the one we live in today. This causes some issues, as our primitive ways of thinking are often inadequate when it comes to making decisions related to helping others and tackling modern problems.",
+      "To combat these issues, it can help to make oneself aware of how our relatively primitive brain works so that we can catch ourselves in the act and make more rational decisions. The following article introduces some of these psychological obstacles that may prevent us from helping others as effectively as we would prefer.",
+      "You may choose to complete the interactive module or read the article in the link below. Both of them contain the same content."
+    ],
+    type: "text",
+    linkTitle: "Psychological Obstacles to Doing Good (Better)",
+    url: "https://forum.effectivealtruism.org/posts/te2Hi4b2xZuNCXuFh/psychological-obstacles-to-doing-good-better",
+    person: "Michel Justen",
+    minutes: 16
+  },
+  {
     title: "Feeling good vs. doing good",
     person: "Eliezer Yudkowsky",
     type: "text",
@@ -42,18 +55,6 @@ let sections: Section[] = [
     url: "https://www.youtube.com/watch?v=sChdbsbTNxI",
     type: "video",
     minutes: 11
-  },
-  {
-    title: "Psychological obstacles to doing good",
-    introduction: [
-      "The human brain evolved in a very different world than the one we live in today. This causes some issues, as our primitive ways of thinking are often inadequate when it comes to making decisions related to helping others and tackling modern problems.",
-      "To combat these issues, it can help to make oneself aware of how our relatively primitive brain works so that we can catch ourselves in the act and make more rational decisions. The following article introduces some of these psychological obstacles that may prevent us from helping others as effectively as we would prefer."
-    ],
-    type: "text",
-    linkTitle: "Psychological Obstacles to Doing Good (Better)",
-    url: "https://forum.effectivealtruism.org/posts/te2Hi4b2xZuNCXuFh/psychological-obstacles-to-doing-good-better",
-    person: "Michel Justen",
-    minutes: 16
   },
   {
     title: "Scope insensitivity",
