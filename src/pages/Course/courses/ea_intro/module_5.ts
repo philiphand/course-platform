@@ -6,6 +6,7 @@ let sections: Section[] = [
     title: "Is the world getting better or worse?",
     linkTitle: "Is the world getting better or worse?",
     person: "Benjamin Hilton",
+    organization: "80,000 Hours",
     url: "https://80000hours.org/2023/02/is-the-world-getting-better-or-worse/",
     minutes: 5
   },
@@ -36,14 +37,12 @@ let sections: Section[] = [
   },
   {
     type: "text",
-    title: "Metaculus",
-    introduction: [
-      "Read the first few dozen results and reflect on what you find important and surprising. These are average predictions of how several important trends will unfold over the coming years. We’re not sure how accurate they’ll be, but we think it gives a glimpse into the future."
-    ],
-    linkTitle: "Questions",
-    organization: "Metaculus",
-    url: "https://www.metaculus.com/questions/?order_by=-votes&main-feed&type=forecast&status=open",
-    minutes: 5
+    title: "AI timelines",
+    person: "Max Roser",
+    organization: "Our World in Data",
+    linkTitle: "AI timelines: What do experts in artificial intelligence expect for the future?",
+    url: "https://ourworldindata.org/ai-timelines",
+    minutes: 9
   },
   {
     type: "text",
@@ -55,12 +54,15 @@ let sections: Section[] = [
   },
   {
     type: "text",
-    title: "Humanity's future",
-    person: "Holden Karnofsky",
-    linkTitle: "All Possible Views About Humanity's Future Are Wild",
-    url: "https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/",
-    minutes: 13
-  },
+    title: "Metaculus",
+    introduction: [
+      "Read the first few dozen results and reflect on what you find important and surprising. These are average predictions of how several important trends will unfold over the coming years. We’re not sure how accurate they’ll be, but we think it gives a glimpse into the future."
+    ],
+    linkTitle: "Questions",
+    organization: "Metaculus",
+    url: "https://www.metaculus.com/questions/?order_by=-votes&main-feed&type=forecast&status=open",
+    minutes: 5
+  }
 ];
 
 let module: Module = {
