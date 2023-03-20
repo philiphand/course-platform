@@ -8,7 +8,12 @@ let sections: Section[] = [
     person: "Benjamin Hilton",
     organization: "80,000 Hours",
     url: "https://80000hours.org/2023/02/is-the-world-getting-better-or-worse/",
-    minutes: 5
+    minutes: 6,
+    introduction: [
+      "It's difficult to say whether the world is improving or not, as there are both positive and negative trends. On the one hand, poverty levels have decreased significantly since 1990, with both the share and absolute number of people living in extreme poverty falling. Additionally, child mortality rates have dropped, and life expectancy is on the rise. On the other hand, the number of people living in autocracies has been increasing since the 1950s, and animals exploited by humans are suffering more than ever before.",
+      "Moreover, the risk of some catastrophes, such as engineered pandemics and AI-related catastrophes, is higher than ever before. Since the invention of nuclear weapons in 1945, humans have possessed the capacity to cause major global damage, and the number of countries with nuclear weapons has not decreased. While the absolute number of nuclear warheads has fallen since the 1980s, there are still enough to cause a major catastrophe. Additionally, we face new threats as we develop more dangerous technology, and the possibility of an engineered pandemic is a growing concern.",
+      "It's essential to recognize that we don't know what the future holds, and it's impossible to predict the direction of global trends with certainty. While some positive trends, such as the decrease in poverty levels and the rise of renewable energy, may continue, negative trends, such as the increase in autocracies and the risk of catastrophes, may worsen. Nevertheless, there are ways we can increase the accuracy of our predictions about the future, which is this week's topic."
+    ]
   },
   {
     title: "The world can be much better",
