@@ -37,20 +37,20 @@ let sections: Section[] = [
   },
   {
     type: "text",
+    title: "This can't go on",
+    linkTitle: "This Can't Go On",
+    person: "Holden Karnofsky",
+    url: "https://www.cold-takes.com/this-cant-go-on/",
+    minutes: 13
+  },
+  {
+    type: "text",
     title: "AI timelines",
     person: "Max Roser",
     organization: "Our World in Data",
     linkTitle: "AI timelines: What do experts in artificial intelligence expect for the future?",
     url: "https://ourworldindata.org/ai-timelines",
     minutes: 9
-  },
-  {
-    type: "text",
-    title: "This can't go on",
-    linkTitle: "This Can't Go On",
-    person: "Holden Karnofsky",
-    url: "https://www.cold-takes.com/this-cant-go-on/",
-    minutes: 13
   },
   {
     type: "text",
