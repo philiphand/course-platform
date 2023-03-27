@@ -50,7 +50,7 @@ let sections: Section[] = [
       "Improved vaccine and drug development can help to create more effective and more available vaccines and drugs to help combat potential pandemics.",
     ],
     title: "Preventing catastrophic pandemics",
-    organization: "80.000 Hours",
+    organization: "80,000 Hours",
     linkTitle: "Preventing catastrophic pandemics",
     url: "https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/",
     minutes: 7
@@ -80,7 +80,7 @@ let sections: Section[] = [
       "The probability of a nuclear conflict is particularly high during times of tension and conflict, such as during a war or a period of political instability. There is also a risk of a nuclear war happening by accident, for example, if a nuclear weapon is mishandled or if there is a misunderstanding between countries.",
       "The consequences of a nuclear conflict would be devastating. A large-scale nuclear conflict could cause millions deaths from the blast, heat, and radiation from nuclear weapons. The environment could also be damaged by nuclear fallout, which could cause long-term health problems and disrupt the food supply. There is also a chance of extinction"
     ],
-    organization: "80.000 Hours",
+    organization: "80,000 Hours",
     linkTitle: "Risk of nuclear war",
     url: "https://80000hours.org/problem-profiles/nuclear-security/",
     minutes: 9

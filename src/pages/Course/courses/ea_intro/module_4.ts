@@ -27,7 +27,7 @@ let sections: Section[] = [
     type: "text",
     title: "Arguments against longtermism",
     person: "Michelle Hutchinson",
-    organization: "80.000 Hours",
+    organization: "80,000 Hours",
     linkTitle: "Why I find longtermism hard, and what keeps me motivated",
     url: "https://80000hours.org/2021/02/why-i-find-longtermism-hard/",
     minutes: 10

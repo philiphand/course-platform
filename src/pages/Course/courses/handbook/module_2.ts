@@ -100,7 +100,7 @@ let sections: Section[] = [
       "One such easily treatable disease is malaria. Malaria is a parasitic infection that is spread by mosquitoes. It is a major killer of children in Africa and Southeast Asia. However, it can be easily treated with drugs such as chloroquine. Another easily treatable disease is tuberculosis. Tuberculosis is a bacterial infection that mainly affects the lungs, and can be treated relatively cost-effectively using antibiotics.",
       "A more difficult disease to treat is HIV/AIDS. HIV is a virus that attacks the immune system and can lead to AIDS. There is no cure for HIV/AIDS, but there are treatments available that can prolong a person's life."
     ],
-    organization: "80.000 Hours",
+    organization: "80,000 Hours",
     title: "Easily preventable or treatable diseases",
     linkTitle: "Easily preventable or treatable diseases",
     url: "https://80000hours.org/problem-profiles/health-in-poor-countries/",
