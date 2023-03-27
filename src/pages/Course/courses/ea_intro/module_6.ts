@@ -73,7 +73,7 @@ let sections: Section[] = [
     introduction: [
       "In this article, the author outlines a comprehensive list of the world's most pressing problems, aiming to identify issues where each additional person can have the most significant positive impact. The focus is on neglected, solvable problems that are unusually large in scale, including existential risks.",
       "The article includes an extensive range of pressing problems, along with brief descriptions and links to learn more about each issue and ways to help tackle them.",
-      "Please dive into some of the problem areas and reflect on which you believe to be the most pressing."
+      "As we are nearing the end of this introductory course, we encourage you to explore some of these problem areas in more detail on your own. Please dive into some of the problem areas and reflect on which you believe to be the most pressing, and what implications this may have for your own personal life and career decisions in the future."
     ],
     url: "https://80000hours.org/problem-profiles/",
     minutes: 7
