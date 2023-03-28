@@ -19,7 +19,7 @@ const course: Course = {
   name: "handbook",
   title: "Compact EA Handbook (old version)",
   modules,
-  released: true,
+  released: false,
   recommended: true,
   imageFileName: "world.jpg"
 }

@@ -2,7 +2,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import "./course.css";
 import { IntroProgramContext, Section } from '../../Provider';
-import { Book, Calendar, Certificate, Clock, Globe, LightBulb, Warning, WhiteCheckMark } from '../../components/icons/icons';
+import { Book, Calendar, Clock, Globe, LightBulb, Warning, WhiteCheckMark } from '../../components/icons/icons';
 import { Module } from './Module/Module';
 import { Sidebar } from './Sidebar/Sidebar';
 import { SectionOverview } from './SectionOverview/SectionOverview';
@@ -13,7 +13,7 @@ import { useParams } from 'react-router-dom';
 const Course: React.FC = () => {
   const context = useContext(IntroProgramContext);
   let { id } = useParams();
-  if (!id) id = "handbook"
+  if (!id) id = "ea_intro";
   const [initiatedModules, setInitiatedModules] = useState(false);
   const [courseStarted, setCourseStarted] = useState(false);
   const [changedCourse, setChangedCourse] = useState(false);
@@ -93,10 +93,9 @@ const Course: React.FC = () => {
                 </div>
                 <strong>Course info</strong>
                 <div className="intro-list">
-                  <div><Book/><span>Content based on <a href="https://forum.effectivealtruism.org/handbook" target="_blank" rel="noreferrer">The EA Handbook</a></span></div>
+                  <div><Book/><span>Content inspired by <a href="https://forum.effectivealtruism.org/handbook" target="_blank" rel="noreferrer">The EA Handbook</a></span></div>
                   <div><Calendar/><span>Six weekly modules</span></div>
                   <div><Clock/><span>Estimated course workload of 6-8 hours</span></div>
-                  <div><Certificate/><span>Digital certificate upon completion (at EA UiB)</span></div>
                 </div>
                 <button className="nav-button" onClick={() => {
                     if (firstIncompleteSection.section > 1) {
@@ -170,7 +169,7 @@ const Course: React.FC = () => {
                 </div>
               </div>
             }
-            {currMod === 0 && <p>Content based on <a href="https://forum.effectivealtruism.org/handbook" target="_blank" rel="noreferrer">The EA Handbook</a></p>}
+            {currMod === 0 && <p>Content inspired by <a href="https://forum.effectivealtruism.org/handbook" target="_blank" rel="noreferrer">The EA Handbook</a></p>}
             {currMod === 0 && 
               <div>
                 {
